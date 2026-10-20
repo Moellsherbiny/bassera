@@ -39,7 +39,7 @@ export const Navbar = () => {
           ? "مدير"
           : "مستخدم";
 
-  const dashboardHref = 'dashboard';
+  const dashboardHref = "dashboard";
 
   const handleSignOut = async () => {
     setIsMenuOpen(false);
@@ -56,7 +56,7 @@ export const Navbar = () => {
         <NextLink
           href="/"
           className="flex items-center gap-2.5 text-foreground transition-opacity hover:opacity-80"
-          aria-label="بَصيرة"
+          aria-label="DLE Graph-AI - بيئة التعلم بالإنفوجرافيك الذكي"
         >
           <Image
             src="/favicon.ico"
@@ -69,11 +69,11 @@ export const Navbar = () => {
 
           <div className="flex flex-col leading-none">
             <span className="text-base font-bold tracking-tight">
-              بَصيـــــــــرة
+              DLE Graph-AI
             </span>
 
-            <span className="mt-1 text-[9px] font-medium tracking-[0.2em] text-default-400">
-              BASEERA
+            <span className="mt-1 text-[9px] font-medium text-default-400">
+              بيئة التعلم بالإنفوجرافيك الذكي
             </span>
           </div>
         </NextLink>
@@ -112,7 +112,7 @@ export const Navbar = () => {
                 <NextLink href={dashboardHref}>لوحة التحكم</NextLink>
               </Button>
 
-              <UserMenu/>
+              <UserMenu />
             </>
           ) : (
             <>

@@ -14,7 +14,7 @@ interface DashboardShellProps {
   children: React.ReactNode;
 }
 
-const COLLAPSE_STORAGE_KEY = "baseera:sidebar-collapsed";
+const COLLAPSE_STORAGE_KEY = "dle-graph-ai:sidebar-collapsed";
 
 export function DashboardShell({
   title,

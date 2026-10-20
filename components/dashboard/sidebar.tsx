@@ -196,25 +196,25 @@ export function DashboardSidebar({
           className="flex items-center gap-2.5 transition-opacity hover:opacity-80"
         >
           <Image
-            src="/favicon.ico"
-            alt="بَصيرة"
-            width={30}
-            height={30}
-            priority
-            className="size-[30px]"
-          />
+  src="/favicon.ico"
+  alt="DLE Graph-AI"
+  width={30}
+  height={30}
+  priority
+  className="size-[30px]"
+/>
 
-          {!isRail && (
-            <div className="flex flex-col leading-none">
-              <span className="text-base font-bold tracking-tight">
-                بَصيرة
-              </span>
+{!isRail && (
+  <div className="flex flex-col leading-none">
+    <span className="text-base font-bold tracking-tight">
+      DLE Graph-AI
+    </span>
 
-              <span className="mt-1 text-[9px] font-medium tracking-[0.2em] text-default-400">
-                BASEERA
-              </span>
-            </div>
-          )}
+    <span className="mt-1 text-[9px] font-medium text-default-400">
+      بيئة التعلم بالإنفوجرافيك الذكي
+    </span>
+  </div>
+)}
         </NextLink>
 
         {!isRail && (

@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "@heroui/styles";
-@custom-variant dark (&:is(.dark *)); /* ========================================================= BASEERA DESIGN SYSTEM Modern AI Education Navy + Violet + Cyan ========================================================= */
+@custom-variant dark (&:is(.dark *)); /* ========================================================= DLE GRAPH-AI DESIGN SYSTEM Modern AI Education Navy + Violet + Cyan ========================================================= */
 @theme {
   /* ------------------------------------------------------- Typography ------------------------------------------------------- */
   --font-sans: "Cairo", "IBM Plex Sans Arabic", sans-serif;
@@ -167,29 +167,29 @@ body {
 }
 .page-transition {
   animation: page-enter 280ms ease-out;
-} /* ========================================================= BASEERA COMPONENT TOKENS ========================================================= */ /* Standard Card */
-.baseera-card {
+} /* ========================================================= DLE GRAPH-AI COMPONENT TOKENS ========================================================= */ /* Standard Card */
+.dle-card {
   background: var(--color-surface);
   border: 1px solid var(--color-border-soft);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-sm);
 } /* Interactive Card */
-.baseera-card-hover {
+.dle-card-hover {
   transition:
     transform 180ms ease,
     border-color 180ms ease,
     box-shadow 180ms ease;
 }
-.baseera-card-hover:hover {
+.dle-card-hover:hover {
   transform: translateY(-2px);
   border-color: #d8ddea;
   box-shadow: var(--shadow-md);
 } /* Main Brand Surface */
-.baseera-brand {
+.dle-brand {
   background: linear-gradient(135deg, #111827 0%, #1e293b 55%, #312e81 100%);
   color: white;
 } /* AI Surface */
-.baseera-ai {
+.dle-ai {
   background: linear-gradient(
     135deg,
     rgb(124 58 237 / 0.08),
@@ -197,7 +197,7 @@ body {
   );
   border: 1px solid rgb(139 92 246 / 0.16);
 } /* Technology Surface */
-.baseera-tech {
+.dle-tech {
   background: linear-gradient(
     135deg,
     rgb(8 145 178 / 0.08),
@@ -205,7 +205,7 @@ body {
   );
   border: 1px solid rgb(8 145 178 / 0.14);
 } /* Soft Section */
-.baseera-section {
+.dle-section {
   background: var(--color-surface-soft);
   border: 1px solid var(--color-border-soft);
 } /* ========================================================= DARK MODE ========================================================= */
@@ -235,14 +235,14 @@ body {
 .dark ::-webkit-scrollbar-thumb:hover {
   background: #475569;
 }
-.dark .baseera-card {
+.dark .dle-card {
   background: var(--color-surface);
   border-color: var(--color-border);
 }
-.dark .baseera-card-hover:hover {
+.dark .dle-card-hover:hover {
   border-color: #334155;
 }
-.dark .baseera-ai {
+.dark .dle-ai {
   background: linear-gradient(
     135deg,
     rgb(124 58 237 / 0.14),
@@ -250,7 +250,7 @@ body {
   );
   border-color: rgb(139 92 246 / 0.22);
 }
-.dark .baseera-tech {
+.dark .dle-tech {
   background: linear-gradient(
     135deg,
     rgb(8 145 178 / 0.14),

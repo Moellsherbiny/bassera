@@ -4,7 +4,9 @@ import NextLink from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "الصفحة الرئيسية",
+  title: "DLE Graph-AI | بيئة التعلم بالإنفوجرافيك الذكي",
+  description:
+    "بيئة تعلم ذكية مدعومة بالذكاء الاصطناعي، تقدم المحتوى التعليمي من خلال الإنفوجرافيك التفاعلي.",
 };
 
 export default function Home() {
@@ -20,22 +22,27 @@ export default function Home() {
               </h1>
 
               <p className="mt-6 max-w-xl text-lg leading-8 text-default-500 sm:text-xl">
-                بَصيرة هي بيئة تعليمية تكيفية مدعومة بالذكاء الاصطناعي، تقدم
-                المحتوى التعليمي بصورة بصرية وتفاعلية بما يتناسب مع احتياجات كل
-                متعلم.
+                DLE Graph-AI هي بيئة تعلم ذكية مدعومة بالذكاء الاصطناعي، تقدم
+                المحتوى التعليمي من خلال الإنفوجرافيك التفاعلي بما يتناسب مع
+                احتياجات كل متعلم.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
-                <Button variant="primary" size="lg" fullWidth className="font-semibold sm:w-auto">
-                  <NextLink
-                    href="/login"
-                  
-                  >
-                    ابدأ التعلم
-                  </NextLink>
+                <Button
+                  variant="primary"
+                  size="lg"
+                  fullWidth
+                  className="font-semibold sm:w-auto"
+                >
+                  <NextLink href="/login">ابدأ التعلم</NextLink>
                 </Button>
-                <Button variant="outline" size="lg" fullWidth className="font-semibold sm:w-auto">
-                  <NextLink href="/about">عن بَصيـــــــــرة</NextLink>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  fullWidth
+                  className="font-semibold sm:w-auto"
+                >
+                  <NextLink href="/about">عن المنصة</NextLink>
                 </Button>
               </div>
             </div>
@@ -51,16 +58,16 @@ export default function Home() {
                   <div className="flex flex-col items-center">
                     <Image
                       src="/favicon.ico"
-                      alt="بَصيرة"
+                      alt="DLE Graph-AI"
                       width={72}
                       height={72}
                       priority
                     />
 
-                    <span className="mt-4 text-2xl font-bold">بَصيرة</span>
+                    <span className="mt-4 text-xl font-bold">DLE Graph-AI</span>
 
-                    <span className="mt-1 text-xs font-medium tracking-[0.25em] text-default-400">
-                      BASEERA
+                    <span className="mt-2 text-center text-xs font-medium text-default-400">
+                      بيئة التعلم بالإنفوجرافيك الذكي
                     </span>
                   </div>
                 </div>

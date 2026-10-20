@@ -21,22 +21,21 @@ export default function AuthLayout({
             <NextLink
               href="/"
               className="flex w-fit items-center gap-2.5 text-foreground"
+              aria-label="DLE Graph-AI"
             >
               <Image
                 src="/favicon.ico"
-                alt="بَصيرة"
+                alt=""
                 width={38}
                 height={38}
                 priority
               />
 
               <div className="flex flex-col leading-none">
-                <span className="text-lg font-bold">
-                  بَصيرة
-                </span>
+                <span className="text-lg font-bold">DLE Graph-AI</span>
 
-                <span className="mt-1 text-[9px] font-medium tracking-[0.22em] text-default-400">
-                  BASEERA
+                <span className="mt-1 text-[9px] font-medium text-default-400">
+                  بيئة التعلم بالإنفوجرافيك الذكي
                 </span>
               </div>
             </NextLink>
@@ -45,23 +44,17 @@ export default function AuthLayout({
             <div className="max-w-md">
               <h1 className="text-4xl font-bold leading-tight xl:text-5xl">
                 تعلّم بطريقة
-                <span className="block text-primary">
-                  تناسبك.
-                </span>
+                <span className="block text-primary">تناسبك.</span>
               </h1>
 
               <p className="mt-6 leading-8 text-default-500">
-                بيئة تعليمية تكيفية تجمع بين الذكاء الاصطناعي،
-                المحتوى البصري، والفيديو لتقديم تجربة تعلم أكثر
-                تفاعلًا وملاءمة لاحتياجاتك.
+                بيئة تعليمية تكيفية تجمع بين الذكاء الاصطناعي، المحتوى البصري،
+                والفيديو لتقديم تجربة تعلم أكثر تفاعلًا وملاءمة لاحتياجاتك.
               </p>
             </div>
 
             {/* Footer */}
-            <p
-            
-              className="text-xs text-default-400"
-            >
+            <p className="text-xs text-default-400">
               AI-Powered Adaptive Learning
             </p>
           </div>
@@ -75,22 +68,21 @@ export default function AuthLayout({
               <NextLink
                 href="/"
                 className="flex items-center gap-2.5 text-foreground"
+                aria-label="DLE Graph-AI"
               >
                 <Image
                   src="/favicon.ico"
-                  alt="بَصيرة"
+                  alt=""
                   width={36}
                   height={36}
                   priority
                 />
 
                 <div className="flex flex-col leading-none">
-                  <span className="text-base font-bold">
-                    بَصيرة
-                  </span>
+                  <span className="text-base font-bold">DLE Graph-AI</span>
 
-                  <span className="mt-1 text-[8px] font-medium tracking-[0.2em] text-default-400">
-                    BASEERA
+                  <span className="mt-1 text-[8px] font-medium text-default-400">
+                    بيئة التعلم بالإنفوجرافيك الذكي
                   </span>
                 </div>
               </NextLink>

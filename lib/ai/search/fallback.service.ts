@@ -1,12 +1,7 @@
-
 import { getGeminiClient, MODEL } from "./gemini-client";
 import { parseGeneratedAnswer } from "./text-utils";
 
-import type {
-  FallbackReason,
-  GeneratedAnswer,
-  RagChunk,
-} from "./types";
+import type { FallbackReason, GeneratedAnswer, RagChunk } from "./types";
 
 type FallbackOptions = {
   question: string;
@@ -25,8 +20,7 @@ const reasonMessages: Record<FallbackReason, string> = {
     "تم العثور على سياق محتمل، لكن الإجابة الناتجة لم تجتز التحقق من الاستشهادات.",
   rag_generation_failed:
     "فشلت محاولة توليد أو التحقق من إجابة تعتمد على سياق المقرر.",
-  retrieval_failed:
-    "حدث خطأ تقني أثناء استرجاع المقاطع من قاعدة المعرفة.",
+  retrieval_failed: "حدث خطأ تقني أثناء استرجاع المقاطع من قاعدة المعرفة.",
 };
 
 export async function generateFallback({
@@ -47,7 +41,7 @@ export async function generateFallback({
   const response = await ai.models.generateContent({
     model: MODEL,
     contents: `
-أنت المساعد التعليمي لمنصة بصيرة.
+أنت المساعد التعليمي لمنصة DLE Graph-AI.
 
 بيانات السياق:
 - اسم المقرر: ${courseTitle ?? "غير محدد"}

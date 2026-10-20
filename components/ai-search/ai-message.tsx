@@ -45,7 +45,7 @@ export function AiMessage({ message }: AiMessageProps) {
         </div>
 
         <span className="text-sm font-semibold text-foreground">
-          بصيرة
+          DLE Graph-AI
         </span>
       </div>
 

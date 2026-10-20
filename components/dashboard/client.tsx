@@ -130,7 +130,9 @@ export default function DashboardClient({
 
               {/* Greeting */}
               <div className="flex gap-4 text-2xl font-bold tracking-tight text-foreground sm:text-3xl lg:text-4xl">
-                <span className="underline underline-offset-[12px] decoration-accent decoration-dashed">{greeting}</span>
+                <span className="underline underline-offset-[12px] decoration-accent decoration-dashed">
+                  {greeting}
+                </span>
                 <div className="relative z-1">
                   <span className="absolute h-3 w-full bg-accent/50 -z-10 translate-y-3/3 -skew-6 rounded-br-sm rounded-tl-sm" />
                   {firstName}
@@ -140,8 +142,8 @@ export default function DashboardClient({
               {/* Description */}
               <p className="mt-3 max-w-2xl text-sm leading-7 text-default-500">
                 {course
-                  ? "رحلتك مستمرة. بصيرة تتابع تقدمك وتساعدك على الوصول إلى الخطوة التعليمية التالية."
-                  : "مساحتك التعليمية جاهزة. ابدأ رحلتك داخل بصيرة."}
+                  ? "رحلتك مستمرة. DLE Graph-AI تتابع تقدمك وتساعدك على الوصول إلى الخطوة التعليمية التالية."
+                  : "مساحتك التعليمية جاهزة. ابدأ رحلتك داخل DLE Graph-AI."}
               </p>
             </div>
           </div>
@@ -324,7 +326,7 @@ export default function DashboardClient({
 
             <div>
               <div className="flex items-center gap-2">
-                <h2 className="font-bold">بصيرة تقترح لك</h2>
+                <h2 className="font-bold">DLE Graph-AI تقترح لك</h2>
 
                 <span className="rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-semibold text-primary">
                   AI

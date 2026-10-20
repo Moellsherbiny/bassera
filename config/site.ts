@@ -1,13 +1,14 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "بَصيرة",
-  englishName: "BASEERA",
+   name: "بيئة التعلم بالإنفوجرافيك الذكي",
+  englishName: "DLE Graph-AI",
 
-  description:
-    "منصة تعليمية تكيفية مدعومة بالذكاء الاصطناعي لتقديم محتوى بصري تفاعلي يناسب احتياجات المتعلم.",
+ description:
+    "بيئة تعلم ذكية مدعومة بالذكاء الاصطناعي، تقدم المحتوى التعليمي من خلال الإنفوجرافيك التفاعلي بما يتناسب مع احتياجات كل متعلم.",
 
-  tagline: "AI-Powered Adaptive Learning",
+  tagline: "AI-Powered Infographic Learning",
+
 
   navItems: [
     {

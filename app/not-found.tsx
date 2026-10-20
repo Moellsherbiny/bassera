@@ -82,7 +82,7 @@ export default function NotFound() {
             className="min-w-40 font-semibold"
           >
             <NextLink href="/" className="w-full">
-            العودة للرئيسية
+              العودة للرئيسية
             </NextLink>
           </Button>
 
@@ -94,14 +94,19 @@ export default function NotFound() {
             <NextLink href="/dashboard" className="w-full ">
               لوحة التحكم
             </NextLink>
-        
           </Button>
         </div>
 
         {/* Brand */}
-        <p className="mt-10 text-xs font-medium text-default-400">
-          بَصيـــرة · BASEERA
-        </p>
+        <div className="mt-10 flex flex-col items-center gap-1">
+          <span className="text-sm font-bold tracking-tight text-foreground">
+            DLE Graph-AI
+          </span>
+
+          <span className="text-xs font-medium text-default-400">
+            بيئة التعلم بالإنفوجرافيك الذكي
+          </span>
+        </div>
       </div>
     </main>
   );

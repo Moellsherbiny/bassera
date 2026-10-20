@@ -49,18 +49,17 @@ const baseTemplate = ({
               color: #18181b;
             "
           >
-            بَصيرة
+            DLE Graph-AI
           </div>
 
           <div
             style="
               margin-top: 6px;
-              font-size: 11px;
-              letter-spacing: 3px;
+              font-size: 12px;
               color: #71717a;
             "
           >
-            BASEERA
+            بيئة التعلم بالإنفوجرافيك الذكي
           </div>
         </div>
 
@@ -85,7 +84,7 @@ const baseTemplate = ({
               color: #71717a;
             "
           >
-            هذه رسالة تلقائية من منصة بَصيرة
+            هذه رسالة تلقائية من DLE Graph-AI
           </p>
 
           <p
@@ -95,7 +94,7 @@ const baseTemplate = ({
               color: #a1a1aa;
             "
           >
-            AI-Powered Adaptive Learning
+            AI-Powered Infographic Learning
           </p>
         </div>
       </div>
@@ -106,7 +105,7 @@ const baseTemplate = ({
 
 export function verificationCodeTemplate(code: string) {
   return baseTemplate({
-    title: "تأكيد البريد الإلكتروني",
+    title: "تأكيد البريد الإلكتروني | DLE Graph-AI",
     content: `
       <h1
         style="
@@ -127,7 +126,7 @@ export function verificationCodeTemplate(code: string) {
         "
       >
         استخدم رمز التحقق التالي لتأكيد بريدك الإلكتروني وإنشاء حسابك
-        على منصة بَصيرة.
+        على DLE Graph-AI.
       </p>
 
       <div
@@ -179,7 +178,7 @@ export function verificationCodeTemplate(code: string) {
 
 export function passwordResetTemplate(code: string) {
   return baseTemplate({
-    title: "إعادة تعيين كلمة المرور",
+    title: "إعادة تعيين كلمة المرور | DLE Graph-AI",
     content: `
       <h1
         style="
@@ -200,7 +199,7 @@ export function passwordResetTemplate(code: string) {
         "
       >
         استخدم رمز التحقق التالي لإعادة تعيين كلمة المرور الخاصة بحسابك
-        في منصة بَصيرة.
+        في DLE Graph-AI.
       </p>
 
       <div

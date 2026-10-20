@@ -24,7 +24,7 @@ export async function answerQuestion(
   if (isGreeting(question)) {
     return {
       answer:
-        "وعليكم السلام ورحمة الله وبركاته! أهلاً بك في بصيرة. كيف أقدر أساعدك في دراستك اليوم؟",
+        "وعليكم السلام ورحمة الله وبركاته! أهلاً بك في DLE Graph-AI. كيف أقدر أساعدك في دراستك اليوم؟",
       mode: "conversation",
       sources: [],
     };
